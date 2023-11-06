@@ -1,0 +1,404 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+/* set up bg to be overlapped by every content*/
+/*page1 starts*/
+#bg{
+    
+    background-image: url(navbar/bg.jpg);
+ 
+    background-repeat: no-repeat;
+
+    background-position: center ;
+    background-size:  cover;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+
+}
+
+#navbar{
+
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+    border-radius: 10px;
+    height: 8vh;
+   
+}
+
+#links{
+    border-radius: 10px;
+    
+    margin-left: 32px;
+    width:90vw;
+    height:8vh;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#nav{
+  
+    height:8vh;
+    width:8vh;
+    margin:5%;
+    
+    padding: 1%;
+}
+
+#box1{
+    border: 1px white solid;
+    background-color: white;
+    
+    
+    height:1vh;
+    margin-left: 10%;
+    width:80vw;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+#text1{
+    text-decoration: none;
+    color: #D9D9D9 ;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:45px;
+
+    margin-bottom: 20px;
+    
+    
+}
+
+#text2{
+
+    text-decoration:none;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+    color: #ebe8d7;
+    font-weight: bold;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+#text3{
+    
+    text-decoration:none;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+    color: #D9D9D9;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#box2{
+
+    border: 1px white solid;
+    background-color: white;
+    
+  
+    height:1vh;
+    margin-left: 10%;
+    width:80vw;
+    
+    position: relative;
+    bottom: -5%;
+
+}
+/* position relativewith bottom causes it to adjusted away form its position*/
+#footer{
+
+    border: black 1px solid;
+    background-color:beige;
+    padding: 5px;
+    height:3vh;
+    width: 99.1vw;
+
+    position: relative;
+    bottom: -535px;
+
+}
+
+#footer a{
+
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    font-weight: 900;
+    border: 30px;
+  
+}
+
+/* end of page1. start of page2*/
+/* position fixed allows the bg image to just stay in place no matter what*/
+
+/* position relative with bottom causes it to adjusted away form its position*/
+
+
+#bg1{
+
+    background-image: url(navbar/bg.jpg);
+ 
+    background-repeat: no-repeat;
+
+    background-position: center ;
+    background-size:  cover;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+
+
+}
+
+#stats2 {
+    background-image: url(page2/washi.png);
+    width:25vw;
+    height: 17vh;
+     
+    position: relative;
+    bottom:-20px
+
+
+}
+
+ #texto{
+    text-decoration: none;
+    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position: relative;
+
+   
+    bottom:-20px;
+
+   
+
+   
+}
+
+#texto2{
+
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Horizon', sans-serif;
+
+    margin-left: 59%;
+    position: relative;
+    bottom: -96px;
+
+    font-size: x-large;
+
+    color: #ece8d7 ;
+
+    
+}
+
+#study2{
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'iCiel Gotham', sans-serif;
+    color: #edeada;
+    
+
+    position: relative;
+    bottom: -60px;
+
+
+
+    
+}
+
+#study{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'iCiel Gotham', sans-serif;
+    font-weight: 800;
+    position: relative;
+    bottom:-20px;
+    color:  #ece8d7 ;
+    font-size: 62px;
+}
+
+
+
+
+
+
+
+/* position relative with bottom causes it to adjusted away form its position*/
+#footer2{
+
+    
+    border: black 1px solid;
+    background-color:beige;
+    padding: 5px;
+    height:3vh;
+    width: 99.1vw;
+
+    position: relative;
+    bottom: -170px;
+
+}
+#footer2 a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    font-weight: 900;
+    border: 30px;
+}
+
+/* start of page3*/
+#bg2{
+
+    background-image: url(navbar/bg.jpg);
+ 
+    background-repeat: no-repeat;
+
+    background-position: center ;
+    background-size:  cover;
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+}
+
+
+/* if set,it will make sure that the content takes up thew whole width*/
+#imgbox{
+    
+    display: block;
+    height:20vh;
+    width:69vw;
+    text-align: center;
+
+    margin-left: 17vw; 
+    margin-right: 1vw; 
+    border: 1px white solid;
+    background-color: white ;
+    border-radius: 15px;
+
+    position: relative;
+    bottom: -10px;
+}
+
+#imgbox a{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+
+    position: relative;
+    bottom: -20px;
+
+
+
+}
+
+/* display flex displays an element as a block-level flex container*/
+#containers{
+    display: flex;
+}
+#imgg #imggg{ 
+    width: 22vw;
+    height: 22vh;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: auto;
+    margin-left: 8%;
+    
+}
+#imgg2 #imgggg{ 
+    
+    width: 22vw;
+    height: 22vh;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: auto;
+    margin-left: 18%;
+    
+}
+#imgg3 #imgggg{ 
+    width: 22vw;
+    height: 22vh;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 7%;
+    margin-left: 42%;
+    
+
+    
+    
+}
+#imgg4 #imggggg{ 
+    width: 22vw;
+    height: 22vh;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: auto;
+    margin-left: 51%;
+    
+    
+    
+}
+
+#paragraph1 a{
+
+    text-decoration: none;
+    color: #edeada;
+    text-align: center;
+    
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    font-weight: 900;
+    
+    margin: 12px;
+    position: relative;
+    bottom: -8px;
+
+
+}
+
+
+/* position relativewith bottom causes it to adjusted away form its position*/
+#footer3{
+    border: black 1px solid;
+    background-color:beige;
+    padding: 5px;
+    height:3vh;
+    width: 99.1vw;
+
+    position: relative;
+    bottom: -13px;
+
+}
+
+#footer3 a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    font-weight: 900;
+    border: 30px;
+}
+/* end of page3*/
